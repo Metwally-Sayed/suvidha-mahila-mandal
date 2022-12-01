@@ -35,12 +35,17 @@ display: flex;
 .logo{
   display: flex;
   justify-content: end;
-  width: 67%;
+  width: 100%;
 }
+.logo img {
+  width: 300px !important ;
+  height: 100px;
+}
+
 
 @media (min-width: 200px) {
   .logo img {
-    width: 90%;
+    width: 90% !important;
   }
   .text{
     width: 70%;
@@ -58,7 +63,8 @@ display: flex;
 
 @media (min-width: 300px) {
   .logo img {
-    width: 80%;
+    width: 80% !important;
+    height: 90%;
   }
   .text{
     width: 70%;
@@ -76,7 +82,7 @@ display: flex;
 
 @media (min-width: 800px) {
   .logo img {
-    width: 60%;
+    width: 60% !important;
   }
   .text{
     width: 80%;
