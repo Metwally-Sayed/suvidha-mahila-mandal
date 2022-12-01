@@ -1,10 +1,13 @@
 import './App.css';
-import Hello from './components/hello/hello.js'
+import Aboutus from './components/Aboutus/Aboutus';
+import Footer from './components/Footer/Footer';
+
 function App() {
   return (
-    <>
-    <Hello />
-    </>
+    <div>
+      <Aboutus />
+      <Footer />
+    </div>
   );
 }
 

@@ -1,0 +1,15 @@
+.container{
+  margin: 40px 30px  
+}
+
+.header{
+  color: black;
+  text-transform: uppercase;
+
+}
+
+.text{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
