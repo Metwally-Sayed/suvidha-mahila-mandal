@@ -17,13 +17,17 @@ const Footer = () => {
           </div>
           <div className={classes.text}>
             <p>TEXT</p>
+            <p>TEXT </p>
             <p>TEXT</p>
+          </div>
+          <div className={classes.text}>
+            <p>TEXT</p>
+            <p>TEXT </p>
             <p>TEXT</p>
           </div>
         </div>
         <div className={classes.logo}>
           <img src={logo} alt="logo" />
-
         </div>
       </div>
     </div>
